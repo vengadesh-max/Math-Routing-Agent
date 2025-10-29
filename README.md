@@ -232,15 +232,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **React** for frontend framework
 - **FastAPI** for backend framework
 
-## 📞 Support
-
-For questions, issues, or contributions, please:
-
-1. Check the documentation
-2. Search existing issues
-3. Create a new issue with detailed information
-4. Contact the development team
-
 ## 🔮 Future Enhancements
 
 - [ ] Advanced mathematical parsing with symbolic libraries
@@ -253,5 +244,4 @@ For questions, issues, or contributions, please:
 
 ---
 
-**Built with ❤️ for mathematical education and AI advancement**
 
