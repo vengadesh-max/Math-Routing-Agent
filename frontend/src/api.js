@@ -7,7 +7,7 @@ export async function fetchBackend(path, options = {}) {
     } catch (_) { }
 
     // Fallback to explicit backend URL
-    const backendBase = 'http://localhost:8000';
+    const backendBase = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
     const url = path.startsWith('http') ? path : `${backendBase}${path.startsWith('/') ? '' : '/'}${path}`;
     return fetch(url, options);
 }
